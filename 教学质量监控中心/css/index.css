@@ -5,7 +5,14 @@ body{
 .top{
     width: 100%;
     height: 150px;
-    background-color: #286599;
+    background-color: #1071A8;
+
+}
+.topimg{
+    width: 1300px;
+    margin: 0px auto;
+    height: 150px;
+    background: url("./../img/topimg.png") no-repeat;
 }
 /* 导航栏 */
 .nav{
@@ -25,7 +32,7 @@ body{
     text-align: left;
     position: relative;
 }
-.navs ul li.time{
+.navs ul span.time{
     float: right;
     line-height: 40px;
     font-size: 15px;
@@ -170,6 +177,7 @@ body{
 /*新闻中心*/
 .list{
     width: 100%;
+    margin-bottom: 60px;
 }
 .list_news{
     width: 1300px;
@@ -434,3 +442,94 @@ body{
 .notice ul li:hover a{
     color:#1071a8;
 }
+
+/*底部信息*/
+.message{
+    clear: both;
+    width: 100%;
+    /* margin: 20px 0px 0px ; */
+    /*background: rgba(0,0,0,0);*/
+    background-color: #286599;
+    /* background-image:linear-gradient(to top , #286599, #fdfefe); */
+    opacity: 0.8;
+}
+.message-top{
+    border-top: 1px solid #ccc;
+    background-color: #286599;
+}
+.message-top .addressorcode{
+    box-sizing: border-box;
+    padding: 0px 10px;
+    width: 1300px;
+    margin: 0 auto;
+    /*background-color: #fff;*/
+}
+.message-top .addressorcode:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.message-top .addressorcode .address{
+    float: left;
+    width: 40%;
+    text-align: left;
+    line-height: 250%;
+}
+.message-top .addressorcode .address p{
+    font-size: 14px;
+    color: #fff;
+}
+.wlgzs{
+    color: #fff;
+}
+.boda{
+    color: #fff;
+}
+.message-top .addressorcode .address p .wlgzs:hover{
+    color: #0387cf;
+}
+.message-top .addressorcode .xuename{
+    width: 400px;
+    height: 120px;
+    float: left;
+    background: url("./../img/xiao.png") no-repeat;
+    background-position: -20px -15px;
+
+}
+.message-top .addressorcode .code{
+    float: right;
+    width:20%;
+}
+.message-top .addressorcode .code:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.message-top .addressorcode .code .code-img{
+    padding: 10px 0px 0px;
+    width: 100px;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+}
+.code .code-img img{
+    width: 80px;
+    height: 80px;
+}
+.code .code-img p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+.message .message-bottom{
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #154b80;
+}
+
