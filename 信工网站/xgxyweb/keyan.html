@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"><head><title>信息工程学院</title>
+
+
+
+
+<meta charset="UTF-8"><link rel="stylesheet" href="css/index.css"><link rel="stylesheet" href="css/details.css"><link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()">
+<div class="bg">
+<!--#begineditable name="背景轮播图" viewid="135357" tagname="背景轮播图" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""-->elementname<!--#endeditable-->
+</div><!--顶部时间栏  开始--><section class="header">
+    <div class="header-gree">
+        <div class="gree-l">欢迎访问河南科技学院信工学院网站！    今天是： <!--#begineditable name="主页文本日历" viewid="135330" tagname="主页文本日历" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""-->elementname<!--#endeditable--></div>
+        <div class="gree-r"><a href="http://www.hist.edu.cn/">English</a> | <a href="http://www.hist.edu.cn/">学校主页</a></div>
+    </div>
+</section><!--顶部时间栏结束     logo以及导航开始--><section class="tables">
+<div class="tables-logo">
+<div class="logo"></div>
+<div class="right-search">
+<!--<div class="search">
+<form>
+<div class="search-up"><input class="search-what" value="站内搜索" onblur="if(this.value==''){this.value='站内搜索';}" onfocus="this.value='';"> </div>
+<div class="search-btn"><input class="btn-sub" tsype="submit"> </div></form></div>--></div>
+</div>
+<div class="nav"><!--#begineditable name="主页导航栏" viewid="135151" tagname="主页导航栏" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""-->elementname<!--#endeditable--></div></section><!--中间新闻栏--><section class="inform">
+<div class="journ">
+<div class="journ-left">
+<div class="journ-left-tit">栏目导航 @ <!--#begineditable name="栏目名称" viewid="135168" tagname="栏目名称" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""-->elementname<!--#endeditable--></div>
+<ul class="journ-left-con"><!--#begineditable name="二级竖导航栏" viewid="135159" tagname="二级竖导航栏" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""-->elementname<!--#endeditable--></ul></div>
+<div class="journ-right">
+<div class="journ-right-tit"><!--#begineditable name="当前位置" viewid="135158" tagname="当前位置" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="0" istemp=""-->elementname<!--#endeditable--></div>
+<div class="journ-right-area">
+
+<!--#begineditable name="翻页标题列表" viewid="135204" tagname="翻页标题列表" action="" layout="" contype="" stylesysid="" template="" tplstyle="" clone="" istemp=""-->elementname<!--#endeditable-->
+
+</div></div></div></section><!--底部信息栏--><section class="message">
+<div class="message-top">
+<div class="addressorcode">
+ <div class="address">
+                <p>河南科技学院 ? 信息工程学院官网</p>
+                <p>联系地址：河南省新乡市红旗区华兰大道东段 &nbsp;&nbsp;  </p>
+                <p>邮政编码: <a href="http://www.hist.edu.cn:8080/system/login.jsp" style="color:#000">453003</a> </p>
+                <p>技术支持： <a class="wlgzs" href="http://wlgzs.org">未来工作室</a> </p>
+            </div>
+             <div class="xuename"></div>
+<div class="code">
+<div class="code-img"><img src="img/code.jpg"> 
+<p>学院微信</p></div>
+<!--<div class="codesearch">--><!--<div class="searchdrop">--><!--管理机构--><!--</div>--><!--<div class="searchdrop">--><!--管理机构--><!--</div>--><!--</div>--></div></div></div>
+<div class="message-bottom"><span>版权所有：? 2018 河南科技学院信息工程学院</span> </div></section><script rel="script">
+    //背景轮播
+    var all=document.getElementsByClassName("bgimg");
+    var i=0;
+    function nextpeo() {
+        for(var j=0;j<all.length;j++){
+            all[j].style.zIndex="-2";
+            all[j].style.opacity="0";
+        }
+        all[i].style.zIndex="-1";
+        all[i].style.opacity="1";
+
+        if(i == all.length-1)
+            i=0;
+        else
+            i++;
+
+        console.log(i);
+    }
+    setTimeout(function () {
+        nextpeo();
+        var aa=setInterval(nextpeo,7000);
+
+    },0)
+
+</script>
+
+</body></html>

@@ -1,0 +1,33 @@
+/*ljh常用*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "微软雅黑";
+}
+ul li{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/*左右浮动*/
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.margin_auto{
+    margin: 0px auto;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.over_hidd{
+    overflow: hidden;
+}
