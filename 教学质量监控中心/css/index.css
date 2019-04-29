@@ -297,8 +297,8 @@ body{
 }
 .link_num{
     background-color: antiquewhite;
-    width: 470px;
-    height: 100px;
+    /* width: 470px; */
+    height: 90px;
     float: left;
     margin-right: 20px;
     box-sizing: border-box;
@@ -307,7 +307,7 @@ body{
 }
 .link_num .link_num_time{
     width: 80px;
-    height: 80px;
+    height: 70px;
     background-color: #286599;
     color: white;
     border-radius: 5px;
@@ -320,17 +320,17 @@ body{
 /*==========================*/
 
 .link_welcome{
-    height: 80px;
+    height: 70px;
     width: 300px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     color: #222;
     overflow: hidden;
 }
 .link_welcome ul li{
-    width: 330px;
-    height: 80px;
+    width: 300px;
+    height: 70px;
     text-align: center;
-    line-height: 80px;
+    line-height: 70px;
 }
 .link_text{
     overflow: hidden;
@@ -359,8 +359,8 @@ body{
 
 
 .link{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     float: left;
     margin: 0px 8px;
     display: block;
@@ -377,12 +377,13 @@ body{
 .link img{
     display: block;
     margin: 8px auto;
-    width: 48px;
+    width: 45px;
 }
 .link .link_tit{
     margin-top: 10px;
     text-align: center;
     color: #fff;
+    font-size: 15px;
 }
 .link1{
     background-color: #45b0e3;
@@ -408,6 +409,13 @@ body{
 
 .link7{
     background-color: #a39f94;
+}
+.link8{
+    background-color: #ff4057;
+}
+
+.link9{
+    background-color: #facf5a;
 }
 .link_notice{
     width: 1300px;
