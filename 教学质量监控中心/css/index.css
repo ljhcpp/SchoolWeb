@@ -127,7 +127,7 @@ body{
 }
 .contents .list{
     position: relative;
-    height: 400px;
+    height: 360px;
 }
 
 .contents .list .bgimg{
@@ -541,6 +541,12 @@ body{
     background-position: -20px -15px;
 
 }
+
+
+
+
+
+
 .message-top .addressorcode .code{
     float: right;
     /*width:20%;*/
@@ -580,8 +586,8 @@ body{
 .code .codesearch{
     text-align: left;
     line-height: 190%;
-    float: left;
-    padding: 15px 0px 0px;
+    float: right;
+    padding:0px;
 }
 .codesearch .searchdrop{
     padding-left: 100px;
@@ -628,3 +634,121 @@ body{
     display: block;
 }
 
+/* 更新底部 */
+/* .footer{
+    width:1300px;
+    margin: 0px auto  30px;
+    border: solid #EEE;
+    border-width: 0 1px 1px;
+    background: #fff;
+}
+.footer-linktitle{
+    border-top: 2px solid #799b20;
+    font-size: 16px;
+    color: #666;
+    text-indent: 10px;
+    height: 48px;
+    line-height: 48px;
+} */
+
+/* link */
+.footer-link {
+    width: 1300px;
+    margin:0px auto 10px;
+    border: solid #e8e3e3;
+    border-width: 0 1px 1px;
+    background: #fff;
+}
+.footer-linktitle {
+    border-top: 2px solid #9ccd56;
+    font-size: 16px;
+    color: #666;
+    text-indent: 10px;
+    height: 48px;
+    line-height: 48px;
+}
+.footer-link ul, .footer-link .footer-contact {
+    width: 1270px;
+    margin:0px auto;
+    border-top: 1px solid #e8e3e3;
+}
+.footer-link .footer-contact {
+    padding: 10px 0px;
+    color: #666;
+    font-size: 12px;
+    line-height: 24px;
+}
+.contact-l{
+    float: left;
+    width: 50%;
+}
+.contact-l a{
+    color: #666;
+}
+.contact-r{
+    float: right;
+    width: 50%;
+}
+.footer-contact:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+/* .footer-link li {
+    float: left;
+    margin: 20px 0;
+}
+.footer-link li a {
+    color: #666;
+}
+.footer-link li a:hover {
+    color: #1570A6;
+} */
+/* footer */
+.footer-t {
+    width: 100%;
+    background-color: #1071A8;
+}
+.footer-t .wp .ct:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.footer-t .wp {
+    width: 1300px;
+    margin: 0px auto;
+    
+    padding: 10px 0px 10px;
+}
+/* .footer-t .wp .ct {
+    padding: 0 10px;
+} */
+.footer-t p {
+    height: 28px;
+    line-height: 28px;
+}
+.footer-t .pipe, .footer-t a {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.footer-t .wp{
+    color: #fff;
+    font-size: 12px;
+}
+.pipe{
+    margin-left: 10px;
+}
+.footer-t .copyright {
+    float: left;
+    text-align: left;
+}
+.footer-t .scnulogo {
+    float: right;
+    text-indent: -9999px;
+    background: url(./../img/xiao.png);
+    background-position: 0px -11px;
+    background-size: 256% 122%;
+    width: 300px;
+    height: 70px;
+}

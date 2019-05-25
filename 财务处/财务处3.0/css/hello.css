@@ -1,0 +1,26 @@
+.item{
+    margin: 20px;
+    width: 100%;
+}
+.item-title{
+    width: 830px;
+}
+.item-title .itemmore{
+    width: 600px;
+}
+.item-text {
+    height: 400px;
+}
+.item-text ul {
+    width: 790px;
+}
+.item-text ul li a {
+    width: 550px;
+}
+.xian{
+    width: 95%;
+    height: 1px;
+    background-color: #999;
+    margin: 30px auto;
+    transform: translateX(-20px);
+}
