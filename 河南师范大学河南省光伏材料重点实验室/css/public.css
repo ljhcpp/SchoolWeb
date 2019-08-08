@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 1000px;
+}
+.headerTop{
+	width: 100%;
+	height: 35px;
+	background-color: #2f2f2f;
+}
+.headerTopCenter{
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+}
+.headerTopCenterWelcome,.headerTopCenterDate{
+	width: auto;
+	height: 100%;
+	line-height: 35px;
+	color: #bbbbbb;
+	float: left;
+	font-size: 12px;
+}
+.headerTopCenterEnglish{
+	width: auto;
+	height: 100%;
+	line-height: 35px;
+	float: right;
+	color: #bbbbbb;
+	font-size: 12px;
+}
+.headerTopCenterEnglish a{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+.headerTopCenterEnglish a:hover{
+	color: white;
+}
+.headerBody{
+	width: 100%;
+	height: 120px;
+	background-color: #760000;
+	border-top: 1px solid #8b2727;
+	border-bottom: solid 1px #5d0000;
+}
+.headerBodyCenter{
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.headerBodyCenter img{
+	margin: 11px 0;
+}
+.nav{
+	width: 100%;
+	height: 35px;
+	background-color: #760000;/*#000b76*/
+	border-top: 1px solid #8b2727;/*#27388b*/
+	border-bottom: solid 1px #5d0000;/*#000c5d*/
+}
+.navCenter{
+	width: auto;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.navCenter li{
+	width: auto;
+	height: 100%;
+	margin: 0 20px;
+	line-height: 35px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.navCenter li a{
+	color: white;
+	text-decoration: none;
+}
+.footer{
+	width: 84%;
+    height: 130px;
+    padding: 30px 8%;
+    color: #bbb;
+    line-height: 35px;
+    font-size: 14px;
+    position: relative;
+	background-color: #760000;
+}
+.footerLeft{
+	width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+.footerLeftContent{
+	font-size: 18px;
+	border-left: solid 3px #BBBBBB;
+	padding-left: 15px;
+	line-height: 18px;
+	margin: 5px 0
+}
+.footerCenter{
+	width:250px;
+    height: 100%;
+    margin: 0 auto;
+}
+.footerCenterImg{
+	width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+.footerCenterImg img{
+	width: 100%;
+	height: 100%;
+}
+.footerCenterText{
+	width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 70px;
+    font-family: 宋体;
+}
+.footerRight{
+	width: 15%;
+    text-align: right;
+    height: 100px;
+    padding: 15px 0;
+    position: absolute;
+    top: 30px;
+    right: 12%;
+}
+.footerRightContent{
+	font-size: 18px;
+	border-right: solid 3px #BBBBBB;
+	padding-right: 15px;
+	line-height: 18px;
+	margin: 5px 0;
+}
+.copyright{
+	width: 100%;
+    height: 30px;
+    background-color: #2f2f2f;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #bbb;
+}
