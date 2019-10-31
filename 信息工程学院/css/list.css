@@ -1,0 +1,111 @@
+.bodyCenter{
+    min-width: 1140px;
+    min-height:500px;
+    padding:30px 0;
+
+}
+.bodyContent{
+    width:1140px;
+    margin:auto;
+    min-height:500px;
+}
+.bodyContent:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+.listLeft{
+    border-top: 2px solid #0b4a7f;
+    width: 250px;
+    min-height: 500px;
+    background-color: #f7f7f7;
+    float: left;
+}
+.listLeft li{
+    height: 50px;
+    border-bottom: 1px dashed #B4B3B1;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.listLeftTitle{
+    font-size: 16px;
+}
+.listRight{
+    border-top: 2px solid #0b4a7f;
+    width: 845px;
+    min-height: 500px;
+    background-color: #f7f7f7;
+    float: right;
+}
+.listTitle{
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    line-height: 60px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.newsList{
+    padding: 30px;
+}
+
+.newsList li{
+    height: 40px;
+    line-height: 40px;
+}
+
+.newsList li:hover{
+   color:#b81724 ;
+}
+.newsList li a:hover{
+    color:#b81724 ;
+ }
+.newsList img{
+    float: left;
+    line-height: 40px;
+    padding: 10px 0;
+    margin-right: 8px;
+}
+
+.listText{
+    float: left;
+}
+
+.listTime{
+    float: right;
+}
+
+/*分页*/
+.paginationCenter {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 4px 9px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination li a:hover:not(.active) {
+    background-color: #ddd;
+}

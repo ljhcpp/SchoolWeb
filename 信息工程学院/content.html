@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表页</title>
+    <link rel="Shortcut Icon" href="./images/titleLogo.icon">
+    <!--    所有页面公共的css-->
+    <link href="./css/public.css" rel="stylesheet">
+    <!--    头部和底部的公共css-->
+    <link href="./css/publicStyle.css" rel="stylesheet">
+    <script src="./js/jquery-3.4.0.js" type="text/javascript"></script>
+    <!--    头部和底部公共的js-->
+    <script src="./js/public.js" type="text/javascript"></script>
+    <!--    list页面独有css-->
+    <link href="./css/list.css" rel="stylesheet">
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <div class="topCenter">
+        <div class="topTime">2019年10月7日 星期一 08:51:14</div>
+        <script type="text/javascript">
+            function timer(){
+                today=new Date();
+                year=today.getFullYear();
+                yue=today.getMonth()+1;
+                ri=today.getDate();
+                xq=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+                x=today.getDay();
+                shi=today.getHours();
+                if(shi<10)
+                    shi="0"+shi;
+                fen=today.getMinutes();
+                if(fen<10)
+                    fen="0"+fen;
+                miao=today.getSeconds();
+                if(miao<10)
+                    miao="0"+miao;
+                $(".topTime").html(year+"年"+yue+"月"+ri+"日"+"&nbsp;"+xq[x]+"&nbsp;"+shi+":"+fen+":"+miao);
+                setTimeout("timer()",1000);
+            }
+            timer();
+        </script>
+        <div class="topRight">
+            <ul class="topNav">
+                <li>
+                    <label>
+                        <input type="text" class="text"/>
+                        <input type="submit" class="btn" value="搜索"/>
+                    </label>
+                </li>
+                <li>
+                    <a href="#" target="_blank">English</a>
+                </li>
+                <span>|</span>
+                <li>
+                    <a href="#" target="_blank">学校主页</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--logo区-->
+<div class="logo">
+    <!--    信息工程学院的logo图-->
+    <div class="logoLeft">
+        <img src="./images/logo.jpg" alt="">
+    </div>
+    <!--    院训图片-->
+    <div class="logoRight">
+        <img src="./images/logo2.jpg" alt="">
+    </div>
+</div>
+<!--导航区-->
+<div class="nav">
+    <ul class="navCenter">
+        <li>
+            <a href="#">学院首页</a>
+        </li>
+        <li>
+            <a href="#">学院概况</a>
+            <dl class="nav_second">
+                <dd><a href="#">学院简介</a></dd>
+                <dd><a href="#">现任领导</a></dd>
+                <dd><a href="#">历史沿革</a></dd>
+                <dd><a href="#">机构设置</a></dd>
+                <dd><a href="#">历任领导</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">师资力量</a>
+            <dl class="nav_second">
+                <dd><a href="#">教授；副教授</a></dd>
+                <dd><a href="#">博士名单</a></dd>
+                <dd><a href="#">教师名单</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">本科生教育</a>
+            <dl class="nav_second">
+                <dd><a href="#">教务动态</a></dd>
+                <dd><a href="#">培养方案</a></dd>
+                <dd><a href="#">学科建设</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">研究生教育</a>
+            <dl class="nav_second">
+                <dd><a href="#">教务动态</a></dd>
+                <dd><a href="#">培养方案</a></dd>
+                <dd><a href="#">招生信息</a></dd>
+                <dd><a href="#">学科建设</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">科学研究</a>
+            <dl class="nav_second">
+                <dd><a href="#">科研动态</a></dd>
+                <dd><a href="#">科研成果</a></dd>
+                <dd><a href="#">学术交流</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">党工学团</a>
+            <dl class="nav_second">
+                <dd><a href="#">工作动态</a></dd>
+                <dd><a href="#">理论学习</a>
+                <dd><a href="#">学团新闻</a></dd>
+                <dd><a href="#">团委栏目</a></dd>
+                <dd><a href="#">学生会</a></dd>
+                <dd><a href="#">学生资助</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">招生就业</a>
+            <dl class="nav_second">
+                <dd><a href="#">专业介绍</a></dd>
+                <dd><a href="#">招生信息</a></dd>
+                <dd><a href="#">就业信息</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#">规章制度 </a>
+            <dl class="nav_second">
+                <dd><a href="#">学生培养</a></dd>
+                <dd><a href="#">教学管理</a></dd>
+                <dd><a href="#">学团制度</a></dd>
+                <dd><a href="#">本科生教育</a></dd>
+                <dd><a href="#">研究生教育</a></dd>
+            </dl>
+        </li>
+        <li>
+            <a href="#"> 下载中心 </a>
+        </li>
+    </ul>
+</div>
+
+<!--中间部分-->
+<div class ="bodyCenter">
+    <div class ="bodyContent">
+        <ul class="listLeft">
+            <li class="listLeftTitle">栏目导航：学科建设</li>
+            <li>学科动态</li>
+            <li>重点学科</li>
+            <li>重点学科</li>
+            <li>重点学科</li>
+            <li>重点学科</li>
+        </ul>
+        <div class="listRight">
+            <div class="listTitle">
+                当前位置：学院首页 >> 学科建设 >> 学科动态
+            </div>
+            <ul class="newsList">
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+                <li>
+                    <img src="images/newsArrow.png" alt="索引箭头">
+                    <span class="listText">2017版信息工程学院本科生培养方案</span>
+                    <span class="listTime">[ 2019 - 10 - 8 ]</span>
+                </li>
+            </ul>
+
+<!--分页-->
+    <div class="paginationCenter">
+        <ul class="pagination">
+            <a href="#"><li>«</li></a>
+            <a href="#"><li>1</li></a>
+            <a href="#"><li class="active">2</li></a>
+            <a href="#"><li>3</li></a>
+            <a href="#"><li>4</li></a>
+            <a href="#"><li>»</li></a>
+        </ul>
+    </div>
+    </div>
+    </div>
+</div>
+<!--底部连接-->
+<div class="fastLink">
+    <ul class="fastLinkContent">
+        <li><img src="./images/linkPic1.jpg" alt=""><div class="fal_int"></div><a href="http://jw.zzu.edu.cn/glwj/zlxz.html" target="_blank">“不忘初心，牢记使命”主题教育 &gt;</a></li>
+        <li><img src="./images/linkPic2.jpg" alt=""><div class="fal_int"></div><a href="http://gs.zzu.edu.cn/zlxz.htm" target="_blank">星火在线 &gt;</a></li>
+        <li><img src="./images/linkPic5.jpg" alt=""><div class="fal_int"></div><a href="http://www5.zzu.edu.cn/jqrsys/" target="_blank">信工新青年 &gt;</a></li>
+        <li><img src="./images/linkPic4.jpg" alt=""><div class="fal_int"></div><a href="http://job.zzu.edu.cn/" target="_blank">论文（设计）管理系统 &gt;</a></li>
+    </ul>
+</div>
+<!--底部-->
+<div class="footer">
+
+    <div class="footerContent">
+        <div class ="footerLink">
+            友情链接 ：<br>
+            <ul class = "linkLi">
+                <li><a href="#">河南科技学院</a></li>
+                <li><a href="#">园艺园林学院</a></li>
+                <li><a href="#">化学化工学院</a></li>
+            </ul>
+            <ul class = "linkLi">
+                <li><a href="#">体育学院</a></li>
+                <li><a href="#">外国语学院</a></li>
+                <li><a href="#">文法学院</a></li>
+            </ul>
+            <ul class = "linkLi">
+                <li><a href="#">新科学院</a></li>
+                <li><a href="#">艺术学院</a></li>
+                <li><a href="#">机电学院</a></li>
+            </ul>
+        </div>
+        <div class="footerLeft">
+            <img src="./images/bottomlogo.png" alt="河南科技学院logo">
+        </div>
+        <div class="footerRight">
+            <p>地址：河南省新乡市红旗区华兰大道东段</p>
+            <p>邮编：453003 </p>
+            <p>版权所有：© 2019 河南科技学院信息工程学院 </p>
+            <p>技术支持：未来软件工作室</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
